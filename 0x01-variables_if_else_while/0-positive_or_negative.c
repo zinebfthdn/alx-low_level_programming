@@ -10,15 +10,15 @@ int n;
 printf("Write a number :");
 scanf("%d",&n);
 if (n>0){
-printf("%d is positive", n);
+printf("\n%d is positive", n);
 }
 else if (n<0)
 {
-printf("%d is negative", n);
+printf("\n%d is negative", n);
 }
 else if (n==0)
 {
-printf("%d is zero", n);
+printf("\n%d is zero", n);
 }
 return (n);
 }
