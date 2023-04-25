@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("_putcha");
+	printf("_putchar");
 	return(0);
 }
