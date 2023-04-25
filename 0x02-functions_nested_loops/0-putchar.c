@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * main - begin to code
- *
+ * main-begin to code
  * return : always 0
  */
 int main(void)
 {
 
-_putchar('_');
+_putcha('_');
 _putchar('p');
 _putchar('u');
 _putchar('t');
