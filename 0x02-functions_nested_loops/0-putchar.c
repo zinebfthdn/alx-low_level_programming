@@ -2,10 +2,11 @@
 /**
  * main - begin to code
  *
- * return : 0 always
+ * return : always 0
  */
 int main(void)
 {
+
 _putchar('_');
 _putchar('p');
 _putchar('u');
