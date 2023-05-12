@@ -1,13 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
- * main - prints le min
- * make changer pour l’argent
- * @argc: number 
- * @argv: array 
+ * main - ecrire minimum number of coins to
+ * make changerre for an amount of money
+ * @argc: number
+ * @argv: array
  *
- * Return: 0 in Success, 1 in error
+ * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
