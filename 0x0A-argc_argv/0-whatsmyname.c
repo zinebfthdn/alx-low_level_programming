@@ -1,11 +1,11 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"	
 /**
- * main - begin teh code
- * @argc: num des arguments
- * @argv: array des argum.
+ * main - begin to code
+ * @argc: number
+ * @argv: array
  *
- * Return: 0 succefully 
+ * Return: if 0 success
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
