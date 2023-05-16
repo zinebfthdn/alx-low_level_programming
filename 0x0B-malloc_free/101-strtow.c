@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * count_word - counting the num of words in any string
- * @s: string to evaluates
+ * count_word - counting the number of words in a string
+ * @s: strings to evaluate
  *
- * Return: num of words
+ * Return: num of word
  */
 int count_word(char *s)
 {
@@ -26,11 +26,11 @@ w++;
 return (w);
 }
 /**
- * **strtow - split any string into words
- * @str: string to splits
+ * **strtow - spliting a string into words
+ * @str: string which split
  *
- * Return: pointer to any array of string on success
- * or NULL if theres any error
+ * Return: pointing to an array of strings (Success)
+ * or NULL if Error
  */
 char **strtow(char *str)
 {
