@@ -37,4 +37,3 @@ point= point->next;
 point->next = nv;
 return (nv);
 }
-
