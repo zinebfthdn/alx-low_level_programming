@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_list - ecrire une liste
  * @h: un pointeur
