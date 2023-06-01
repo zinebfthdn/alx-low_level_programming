@@ -1,5 +1,5 @@
 #include <stdio.h>
-void The_Hare_and_the_Tortoise(void) __attribute__((constructor));
+void The_Hare_and_the_Tortoise(void)__attribute__((constructor));
 /**
  * first - ecrire une certaine phrase
  * une telle fonction
