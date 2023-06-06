@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * add_nodeint_end - ajouter un noeud
  * @n: new data to insert
@@ -11,7 +14,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *nouveau;
 	listint_t *tp = *head;
 
-	new = malloc(sizeof(listint_t));
+	nouveau = malloc(sizeof(listint_t));
 	if (!nouveau)
 		return (NULL);
 
