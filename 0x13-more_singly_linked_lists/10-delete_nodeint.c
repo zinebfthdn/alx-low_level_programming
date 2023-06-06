@@ -2,7 +2,7 @@
 
 /**
  * delete_nodeint_at_index - supprimer un noeud
- * @head: a pointer 
+ * @head: a pointer
  * @index: index
  *
  * Return: 1 if true, -1 if false
@@ -32,7 +32,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 
 
-	now = tp ->next;
+	now = tp->next;
 	tp->next = now->next;
 	free(now);
 
